@@ -1,0 +1,9 @@
+<span class="company"><%= account.name %></span>
+<img class="thumb" src="<%= owner.thumbnail %>"><br>
+<%= contact.title %><br>
+<% emails.forEach(function(email) { %>
+<div data-subject="<%= email.subject %>" data-body="<%= email.body%>" class="email">
+  <span class="subject"> <%= email.subject.substring(0, 16) %> </span>
+  <span class="body"> <%= email.body.substring(0, 50) %> </span>
+</div>
+<% }) %>

@@ -1,0 +1,23 @@
+.company {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.owner {
+  float:right;
+}
+
+.subject {
+  font-weight: bold;
+  max-width: 200px;
+}
+
+.body {
+  color: #444;
+}
+
+img.thumb {
+  height: 24px;
+  width: 24px;
+  float: right;
+}
